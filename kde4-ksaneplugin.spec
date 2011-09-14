@@ -14,7 +14,7 @@ Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version
 URL:		http://www.kde.org/
 BuildRequires:	kde4-kdelibs-devel >= %{version}
 BuildRequires:	libksane-devel >= %{version}
-Obsoletes:	kde4-kdegraphics-ksane < 4.7.0
+Obsoletes:	kde4-kdegraphics-ksane < 4.6.99
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
