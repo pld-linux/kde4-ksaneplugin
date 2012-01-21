@@ -4,7 +4,7 @@
 
 Summary:	K Desktop Environment - SANE plugin
 Summary(pl.UTF-8):	K Desktop Environment - Wtyczka SANE
-Name:		ksaneplugin
+Name:		kde4-ksaneplugin
 Version:	4.8.0
 Release:	1
 License:	GPL
