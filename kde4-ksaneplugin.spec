@@ -6,7 +6,7 @@ Summary:	K Desktop Environment - SANE plugin
 Summary(pl.UTF-8):	K Desktop Environment - Wtyczka SANE
 Name:		kde4-ksaneplugin
 Version:	4.8.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
@@ -15,6 +15,7 @@ URL:		http://www.kde.org/
 BuildRequires:	kde4-kdelibs-devel >= %{version}
 BuildRequires:	libksane-devel >= %{version}
 Obsoletes:	kde4-kdegraphics-ksane < 4.6.99
+Obsoletes:	ksaneplugin <= 4.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
